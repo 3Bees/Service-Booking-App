@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "533412933327",
+    "project_id": "rekr-161b7",
+    "storage_bucket": "rekr-161b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533412933327:android:24bae01077079a14cd11ba",
+        "android_client_info": {
+          "package_name": "com.rekr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533412933327-p9914lev1if51e8lh25q51vsvtdj0iqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rekr",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "533412933327-cu2d33i20hiffdqhvpjvl32lsg70bd60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2tU1AWbZU5i8aSfl05VG9lAOJ14_8Ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533412933327-cu2d33i20hiffdqhvpjvl32lsg70bd60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

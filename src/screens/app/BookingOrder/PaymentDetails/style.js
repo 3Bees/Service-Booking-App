@@ -1,0 +1,158 @@
+import React from 'react';
+import {StyleSheet} from 'react-native';
+import {
+  responsiveFontSize,
+  responsiveHeight,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
+import {colors} from '../../../../globals/utilities/colors';
+import {fontSize} from '../../../../globals/utilities/size';
+import {fontFamily} from '../../../../globals/utilities/fonts';
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.white,
+  },
+  paymentText: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsBold,
+    fontSize: fontSize.h5,
+    marginLeft: responsiveWidth(8),
+    marginTop: responsiveHeight(4),
+  },
+  inputView: {
+    width: responsiveWidth(84),
+    alignSelf: 'center',
+    marginTop: responsiveHeight(3),
+  },
+  inputView1: {
+    width: responsiveWidth(40),
+    alignSelf: 'center',
+    marginTop: responsiveHeight(3),
+  },
+  label: {
+    color: colors.darkLabel,
+    fontFamily: fontFamily.SourceSansProSemiBold,
+    fontSize: fontSize.large,
+  },
+  input: {
+    backgroundColor: colors.lightGrayBackground,
+    width: responsiveWidth(84),
+    paddingHorizontal: responsiveWidth(3),
+    borderRadius: responsiveWidth(3),
+    marginTop: responsiveHeight(1),
+    flexDirection: 'row',
+    borderBottomWidth: responsiveWidth(0.3),
+    borderColor: colors.black,
+    alignItems: 'center',
+    height: responsiveHeight(6),
+  },
+  input1: {
+    backgroundColor: colors.lightGrayBackground,
+    width: responsiveWidth(40),
+    padding: 0,
+    paddingHorizontal: responsiveWidth(3),
+    borderRadius: responsiveWidth(3),
+    marginTop: responsiveHeight(1),
+    flexDirection: 'row',
+    borderBottomWidth: responsiveWidth(0.3),
+    borderColor: colors.black,
+    height: responsiveHeight(6),
+  },
+  rowView: {
+    width: responsiveWidth(84),
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+  },
+  rowView1: {
+    width: responsiveWidth(30),
+    // alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+  },
+  label1: {
+    height: responsiveHeight(2.5),
+    width: responsiveWidth(5),
+    backgroundColor: colors.darkGray,
+    borderRadius: responsiveWidth(2.5),
+    textAlign: 'center',
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsMedium,
+    fontSize: fontSize.regular,
+  },
+  message: {
+    color: colors.lightText,
+    textAlign: 'center',
+    width: responsiveWidth(60),
+    alignSelf: 'center',
+    marginTop: responsiveHeight(12),
+    fontFamily: fontFamily.SourceSansProRegular,
+    fontSize: fontSize.regular,
+  },
+  btn: {
+    width: responsiveWidth(80),
+    alignSelf: 'center',
+    height: responsiveHeight(8),
+    borderRadius: responsiveWidth(3),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.black,
+    marginTop: responsiveHeight(2),
+    shadowColor: colors.green,
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
+    elevation: 10,
+  },
+  lockIconP: {
+    height: responsiveFontSize(2.5),
+    width: responsiveFontSize(2.5),
+    resizeMode: 'contain',
+  },
+  BtnText: {
+    color: colors.white,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.large,
+    marginLeft: responsiveWidth(3),
+  },
+  masterCardIcon: {
+    height: responsiveHeight(3),
+    width: responsiveWidth(6),
+    resizeMode: 'contain',
+  },
+  cardInput: {
+    width: responsiveWidth(55),
+    fontFamily: fontFamily.SourceSansProSemiBold,
+    fontSize: responsiveFontSize(2.3),
+    color: colors.black,
+    height: responsiveHeight(6),
+  },
+  otherInputStyle: {
+    color: colors.black,
+    fontSize: responsiveFontSize(2),
+  },
+  CardIcon: {
+    height: responsiveHeight(3.5),
+    width: responsiveWidth(7),
+    resizeMode: 'contain',
+    marginLeft: responsiveWidth(8),
+  },
+  whiteCircle: {
+    height: responsiveFontSize(3.5),
+    width: responsiveFontSize(3.5),
+    borderRadius: responsiveFontSize(1.75),
+  },
+  sessionText: {
+    color: colors.white,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.medium,
+    marginTop: responsiveHeight(0.5),
+  },
+});

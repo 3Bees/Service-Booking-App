@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rekr</string>
+	
+<string name="facebook_app_id">955775319150891</string>
+<string name="fb_login_protocol_scheme">fb955775319150891</string>
+<string name="facebook_client_token">4af2c8013c8acd6147fe901e8e7dcddc</string>
+
+
+</resources>

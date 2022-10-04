@@ -1,0 +1,166 @@
+import React from 'react';
+import {StyleSheet} from 'react-native';
+import {
+  responsiveFontSize,
+  responsiveHeight,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
+import {colors} from '../../../globals/utilities/colors';
+import {fontSize} from '../../../globals/utilities/size';
+import {fontFamily} from '../../../globals/utilities/fonts';
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.white,
+  },
+  title: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.h5,
+    marginLeft: responsiveWidth(5),
+    marginTop: responsiveHeight(2),
+    marginBottom: responsiveHeight(4),
+  },
+  BoldHeading: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsBold,
+    marginLeft: responsiveWidth(5),
+    fontSize: fontSize.h5,
+    marginBottom: responsiveHeight(1),
+  },
+  mapcontainer: {
+    width: responsiveWidth(90),
+    height: responsiveHeight(20),
+    marginLeft: responsiveWidth(5),
+    borderRadius: responsiveWidth(5),
+    overflow: 'hidden',
+  },
+  map: {
+    ...StyleSheet.absoluteFillObject,
+    height: responsiveHeight(20),
+    width: responsiveWidth(90),
+  },
+  boldCnteredHeading: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.h5,
+    marginBottom: responsiveHeight(2),
+    marginTop: responsiveHeight(5),
+    alignSelf: 'center',
+  },
+  StudioBtn: {
+    width: responsiveWidth(60),
+    height: responsiveHeight(8),
+    borderWidth: responsiveWidth(0.3),
+    borderColor: colors.black,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: responsiveWidth(5),
+  },
+  StudioBtnText: {
+    color: colors.darkGray,
+    fontFamily: fontFamily.PoppinsBold,
+    marginTop: responsiveHeight(0.5),
+    fontSize: fontSize.large,
+  },
+  time: {
+    color: colors.black,
+    fontFamily: fontFamily.MonstserratMedium,
+    fontSize: fontSize.large,
+    textAlign: 'center',
+    marginTop: responsiveHeight(2),
+    marginBottom: responsiveHeight(4),
+  },
+  whiteCard: {
+    backgroundColor: colors.white,
+    width: responsiveWidth(90),
+    alignSelf: 'center',
+    borderRadius: responsiveWidth(5),
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
+
+    elevation: 10,
+    padding: responsiveFontSize(3),
+  },
+  Studio: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.h4,
+    alignSelf: 'center',
+    marginBottom: responsiveHeight(2),
+  },
+  rowView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  photo: {
+    height: responsiveHeight(10),
+    width: responsiveWidth(20),
+    borderRadius: responsiveWidth(3),
+    marginRight: responsiveWidth(3),
+  },
+  detailsText: {
+    width: responsiveWidth(51),
+    color: colors.black,
+    fontFamily: fontFamily.MonstserratMedium,
+    fontSize: fontSize.regular,
+  },
+  EndBtn: {
+    backgroundColor: colors.black,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderColor: colors.black,
+    borderWidth: responsiveWidth(0.3),
+    borderRadius: responsiveWidth(2),
+    height: responsiveHeight(7),
+    width: responsiveWidth(35),
+    alignSelf: 'center',
+    marginTop: responsiveHeight(8),
+  },
+  skip: {
+    backgroundColor: colors.black,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderColor: colors.black,
+    borderWidth: responsiveWidth(0.3),
+    borderRadius: responsiveWidth(2),
+    height: responsiveHeight(7),
+    width: responsiveWidth(25),
+    alignSelf: 'flex-end',
+    marginTop: responsiveHeight(3),
+  },
+  EndBtnText: {
+    color: colors.white,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.regular,
+    marginTop: responsiveHeight(0.5),
+  },
+  whiteCircle: {
+    height: responsiveFontSize(3.5),
+    width: responsiveFontSize(3.5),
+    borderRadius: responsiveFontSize(1.75),
+  },
+  sessionText: {
+    color: colors.white,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.semiMedium,
+    marginTop: responsiveHeight(0.5),
+  },
+  RateText: {
+    marginTop: responsiveHeight(2),
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.large,
+  },
+  starContainer: {
+    width: responsiveWidth(40),
+    alignSelf: 'center',
+    marginTop: responsiveHeight(2),
+  },
+});

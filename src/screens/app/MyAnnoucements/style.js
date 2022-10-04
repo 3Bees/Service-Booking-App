@@ -1,0 +1,238 @@
+import React from 'react';
+import {StyleSheet} from 'react-native';
+import {
+  responsiveFontSize,
+  responsiveHeight,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
+import {colors} from '../../../globals/utilities/colors';
+import {fontSize} from '../../../globals/utilities/size';
+import {fontFamily} from '../../../globals/utilities/fonts';
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.white,
+  },
+  photo: {
+    height: responsiveWidth(14),
+    width: responsiveWidth(14),
+    borderRadius: responsiveWidth(7),
+  },
+  imageView: {
+    height: responsiveWidth(14),
+    width: responsiveWidth(14),
+    borderRadius: responsiveWidth(7),
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+
+    elevation: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  MainView: {
+    width: responsiveWidth(100),
+    flexDirection: 'row',
+    // alignItems: 'center',
+    borderBottomWidth: responsiveWidth(0.1),
+    borderBottomColor: colors.lightText,
+    paddingHorizontal: responsiveWidth(5),
+    paddingTop: responsiveHeight(2),
+    paddingBottom: responsiveHeight(1.5),
+  },
+  detailsView: {
+    paddingLeft: responsiveWidth(3),
+    width: responsiveWidth(70),
+  },
+  rowView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  rowView1: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: responsiveWidth(52),
+    marginTop: responsiveHeight(1),
+  },
+  moreBtnText: {
+    color: colors.yellow,
+    alignSelf: 'flex-end',
+    fontFamily: fontFamily.MonstserratRegular,
+    fontSize: fontSize.small,
+  },
+  description: {
+    color: colors.black,
+    fontFamily: fontFamily.MonstserratRegular,
+    fontSize: responsiveFontSize(1.45),
+  },
+  responcesBtn: {
+    paddingHorizontal: responsiveWidth(4),
+    paddingVertical: responsiveHeight(0.3),
+    borderColor: colors.black,
+    borderWidth: responsiveWidth(0.1),
+    alignSelf: 'flex-start',
+    borderRadius: responsiveWidth(5),
+    marginVertical: responsiveHeight(1),
+  },
+  responcesBtnText: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    marginTop: responsiveHeight(0.5),
+  },
+  time: {
+    color: colors.lightText,
+    fontFamily: fontFamily.MonstserratRegular,
+    fontSize: fontSize.regular,
+  },
+  name: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.semiMedium,
+    marginTop: responsiveHeight(0.5),
+  },
+  modalWrapper: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+  },
+  Modalbackground: {
+    backgroundColor: colors.white,
+    width: responsiveWidth(90),
+    alignSelf: 'center',
+    borderRadius: responsiveHeight(3),
+    paddingVertical: responsiveHeight(2),
+    borderWidth: responsiveWidth(0.1),
+    borderColor: colors.black,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
+
+    elevation: 10,
+  },
+  Modalbackground1: {
+    backgroundColor: colors.white,
+    width: responsiveWidth(45),
+    alignSelf: 'center',
+    borderRadius: responsiveHeight(3),
+    paddingVertical: responsiveHeight(1.5),
+    borderWidth: responsiveWidth(0.1),
+    borderColor: colors.black,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
+
+    elevation: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: responsiveWidth(3),
+  },
+  userPhoto: {
+    height: responsiveWidth(20),
+    width: responsiveWidth(20),
+    borderRadius: responsiveWidth(10),
+  },
+  photoView: {
+    height: responsiveWidth(20),
+    width: responsiveWidth(20),
+    borderRadius: responsiveWidth(10),
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+
+    elevation: 5,
+  },
+  line: {
+    height: responsiveWidth(0.2),
+    backgroundColor: colors.lightText,
+    marginTop: responsiveHeight(2),
+  },
+  responcesView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: responsiveWidth(3),
+    marginTop: responsiveHeight(0.5),
+  },
+  userName: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.large,
+    marginTop: responsiveHeight(0.5),
+  },
+  RejectBtn: {
+    backgroundColor: colors.white,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderColor: colors.black,
+    borderWidth: responsiveWidth(0.3),
+    borderRadius: responsiveWidth(2),
+    height: responsiveHeight(6),
+    width: responsiveWidth(25),
+    marginRight: responsiveWidth(2),
+  },
+  AcceptBtn: {
+    backgroundColor: colors.black,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderColor: colors.black,
+    borderWidth: responsiveWidth(0.3),
+    borderRadius: responsiveWidth(2),
+    height: responsiveHeight(6),
+    width: responsiveWidth(25),
+  },
+  responceSubview: {
+    width: responsiveWidth(60),
+  },
+  RejectBtnText: {
+    color: colors.black,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.regular,
+    marginTop: responsiveHeight(0.5),
+  },
+  AcceptBtnText: {
+    color: colors.white,
+    fontFamily: fontFamily.PoppinsSemiBold,
+    fontSize: fontSize.regular,
+    marginTop: responsiveHeight(0.5),
+  },
+  confirmationMessage: {
+    color: colors.black,
+    alignSelf: 'center',
+    fontFamily: fontFamily.MonstserratMedium,
+    fontSize: fontSize.medium,
+    width: responsiveWidth(76),
+  },
+  BtnsView: {
+    width: responsiveWidth(72),
+    alignSelf: 'center',
+    marginTop: responsiveHeight(1.5),
+  },
+  bookingText: {
+    color: colors.black,
+    alignSelf: 'center',
+    fontFamily: fontFamily.MonstserratMedium,
+    fontSize: fontSize.regular,
+    marginLeft: responsiveWidth(3),
+  },
+});

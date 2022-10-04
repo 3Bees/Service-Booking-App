@@ -1,0 +1,1043 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rekr"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:6:5-64
+13-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/debug/AndroidManifest.xml:10:5-78
+16-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/debug/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:5:5-79
+17-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:5:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.99.0] /Users/basilfawwad/.gradle/caches/transforms-3/b4bb08ed014de24ba4ea51cfdac8a107/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.99.0] /Users/basilfawwad/.gradle/caches/transforms-3/b4bb08ed014de24ba4ea51cfdac8a107/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:react-native-firebase_auth] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+19-->[:react-native-firebase_auth] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->[:react-native-maps] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+20-->[:react-native-maps] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-78
+21
+22    <queries>
+22-->[com.facebook.android:facebook-common:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8e95e5791866afa81110f11de775d9ff/transformed/jetified-facebook-common-15.0.1/AndroidManifest.xml:29:5-31:15
+23        <package android:name="com.facebook.katana" />
+23-->[com.facebook.android:facebook-common:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8e95e5791866afa81110f11de775d9ff/transformed/jetified-facebook-common-15.0.1/AndroidManifest.xml:30:9-55
+23-->[com.facebook.android:facebook-common:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8e95e5791866afa81110f11de775d9ff/transformed/jetified-facebook-common-15.0.1/AndroidManifest.xml:30:18-52
+24        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+25        <package android:name="com.android.chrome" />
+25-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:13:9-54
+25-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:13:18-51
+26    </queries>
+27
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:5-77
+28-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:22-74
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:5-82
+29-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:22-79
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/9f6b4971df50d7e673b4cfd97b841443/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+30-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/9f6b4971df50d7e673b4cfd97b841443/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+31-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+32-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:22-74
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:17.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/e9e8c6aa9eadc6171ff4aa54c0400256/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:17.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/e9e8c6aa9eadc6171ff4aa54c0400256/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:17.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/e9e8c6aa9eadc6171ff4aa54c0400256/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+37
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+39    <uses-permission android:name="android.permission.REORDER_TASKS" />
+39-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+39-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+40
+41    <application
+41-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:9:5-50:19
+42        android:name="com.rekr.MainApplication"
+42-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:10:7-38
+43        android:allowBackup="false"
+43-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:14:7-34
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.6.0] /Users/basilfawwad/.gradle/caches/transforms-3/64a9063406808f30fdf55983aa926644/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:12:7-41
+47        android:label="@string/app_name"
+47-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:11:7-39
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:13:7-52
+49        android:supportsRtl="true"
+49-->[com.facebook.android:facebook-android-sdk:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8c1e4b14c86e628a67ac5c2f636ca77c/transformed/jetified-facebook-android-sdk-14.1.1/AndroidManifest.xml:28:18-44
+50        android:theme="@style/AppTheme"
+50-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:15:7-38
+51        android:usesCleartextTraffic="true" >
+51-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/debug/AndroidManifest.xml:13:9-44
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/debug/AndroidManifest.xml:16:9-86
+52-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/debug/AndroidManifest.xml:16:19-83
+53        <!-- </application> -->
+54
+55
+56        <!-- <application android:label="@string/app_name" ...> -->
+57    ...
+58        <meta-data
+58-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:30:4-31:52
+59            android:name="com.facebook.sdk.ApplicationId"
+59-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:30:15-60
+60            android:value="@string/facebook_app_id" />
+60-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:31:11-50
+61        <!-- <meta-data android:name="com.facebook.sdk.ClientToken" android:value="56789"/> -->
+62    ...
+63        <activity
+63-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:36:6-39:44
+64            android:name="com.facebook.FacebookActivity"
+64-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:36:16-60
+65            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+65-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:37:9-109
+66            android:label="@string/app_name"
+66-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:39:9-41
+67            android:theme="@style/com_facebook_activity_theme" />
+67-->[com.facebook.android:facebook-common:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8e95e5791866afa81110f11de775d9ff/transformed/jetified-facebook-common-15.0.1/AndroidManifest.xml:37:13-63
+68        <activity
+68-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:40:5-49:16
+69            android:name="com.facebook.CustomTabActivity"
+69-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:41:9-54
+70            android:exported="true" >
+70-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:42:9-32
+71            <intent-filter>
+71-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:43:9-48:25
+72                <action android:name="android.intent.action.VIEW" />
+72-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:13-65
+72-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:21-62
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:13-72
+74-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:23-69
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:13-74
+75-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:23-71
+76
+77                <data android:scheme="@string/fb_login_protocol_scheme" />
+77-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:13-71
+77-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:19-68
+78            </intent-filter>
+79            <intent-filter>
+79-->[com.facebook.android:facebook-common:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8e95e5791866afa81110f11de775d9ff/transformed/jetified-facebook-common-15.0.1/AndroidManifest.xml:43:13-52:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:13-65
+80-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:21-62
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:13-72
+82-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:23-69
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:13-74
+83-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:23-71
+84
+85                <data
+85-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:13-71
+86                    android:host="cct.com.rekr"
+87                    android:scheme="fbconnect" />
+87-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:19-68
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:19:7-29:18
+91            android:name="com.rekr.MainActivity"
+91-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:20:9-37
+92            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+92-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:22:9-86
+93            android:label="@string/app_name"
+93-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:21:9-41
+94            android:launchMode="singleTask"
+94-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:23:9-40
+95            android:windowSoftInputMode="adjustResize" >
+95-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:24:9-51
+96            <intent-filter>
+96-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:25:9-28:25
+97                <action android:name="android.intent.action.MAIN" />
+97-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:13-65
+97-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:21-62
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:27:13-73
+99-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:27:23-70
+100            </intent-filter>
+101        </activity>
+102
+103        <meta-data
+103-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:32:6-108
+104            android:name="com.facebook.sdk.ClientToken"
+104-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:32:17-60
+105            android:value="@string/facebook_client_token" />
+105-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:32:61-106
+106        <meta-data
+106-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:33:4-35:64
+107            android:name="com.google.android.geo.API_KEY"
+107-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:34:7-52
+108            android:value="AIzaSyABpx4ZgqeykN4AWQE0Dm_RD3W2NkCfthM" />
+108-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:35:7-62
+109
+110        <activity
+110-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:75
+111            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+111-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-67
+112            android:exported="false"
+112-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+113            android:launchMode="singleTask"
+113-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-72
+115        <activity
+115-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-28:20
+116            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+116-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-67
+117            android:exported="true"
+117-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+118            android:launchMode="singleTask"
+118-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-44
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+119-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-83
+120            <intent-filter>
+120-->[:tipsi-stripe] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-27:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:13-65
+121-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:21-62
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:13-72
+123-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:23-69
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:13-74
+124-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:23-71
+125
+126                <data android:scheme="example" />
+126-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:13-71
+126-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:19-68
+127            </intent-filter>
+128        </activity>
+129
+130        <service
+130-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+131            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+131-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+132            android:exported="false" />
+132-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+133        <service
+133-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+134            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+134-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+135            android:exported="false" >
+135-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+136            <intent-filter>
+136-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+137                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+137-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+137-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+138            </intent-filter>
+139        </service>
+140
+141        <receiver
+141-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+142            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+142-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+143            android:exported="true"
+143-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+144            android:permission="com.google.android.c2dm.permission.SEND" >
+144-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+145            <intent-filter>
+145-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+146-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+146-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+147            </intent-filter>
+148        </receiver>
+149
+150        <meta-data
+150-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+151            android:name="firebase_messaging_auto_init_enabled"
+151-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+152            android:value="true" />
+152-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+153        <meta-data
+153-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+154            android:name="com.google.firebase.messaging.default_notification_channel_id"
+154-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+155            android:value="" />
+155-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+156        <meta-data
+156-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+157            android:name="com.google.firebase.messaging.default_notification_color"
+157-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+158            android:resource="@color/white" />
+158-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+159        <meta-data
+159-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+160            android:name="app_data_collection_default_enabled"
+160-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+161            android:value="true" />
+161-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+162
+163        <service
+163-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+164            android:name="com.google.firebase.components.ComponentDiscoveryService"
+164-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+165            android:directBootAware="true"
+165-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+166            android:exported="false" >
+166-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+167            <meta-data
+167-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+168                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+168-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
+171                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+171-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/basilfawwad/.gradle/caches/transforms-3/c6ddce4a627288b32713ef4d7f73859f/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+174                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+174-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/basilfawwad/.gradle/caches/transforms-3/c6ddce4a627288b32713ef4d7f73859f/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/basilfawwad/.gradle/caches/transforms-3/c6ddce4a627288b32713ef4d7f73859f/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-functions:20.1.0] /Users/basilfawwad/.gradle/caches/transforms-3/3a09ce3f380af2e900089a1c7ad72b4b/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:18:13-20:85
+177                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+177-->[com.google.firebase:firebase-functions:20.1.0] /Users/basilfawwad/.gradle/caches/transforms-3/3a09ce3f380af2e900089a1c7ad72b4b/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:19:17-111
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-functions:20.1.0] /Users/basilfawwad/.gradle/caches/transforms-3/3a09ce3f380af2e900089a1c7ad72b4b/transformed/jetified-firebase-functions-20.1.0/AndroidManifest.xml:20:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+180                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+180-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-iid:21.1.0] /Users/basilfawwad/.gradle/caches/transforms-3/299d8ce6e29267f3ec6e7bdce1561742/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+183                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+183-->[com.google.firebase:firebase-iid:21.1.0] /Users/basilfawwad/.gradle/caches/transforms-3/299d8ce6e29267f3ec6e7bdce1561742/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-iid:21.1.0] /Users/basilfawwad/.gradle/caches/transforms-3/299d8ce6e29267f3ec6e7bdce1561742/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+185            <meta-data
+185-->[com.google.firebase:firebase-firestore:24.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/f742868d5671ebb43ffd1b102680a5a8/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:20:13-22:85
+186                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+186-->[com.google.firebase:firebase-firestore:24.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/f742868d5671ebb43ffd1b102680a5a8/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:21:17-111
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-firestore:24.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/f742868d5671ebb43ffd1b102680a5a8/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:22:17-82
+188            <meta-data
+188-->[com.google.firebase:firebase-storage:20.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/f82f82a6004202554ada48ec688e262e/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+189                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+189-->[com.google.firebase:firebase-storage:20.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/f82f82a6004202554ada48ec688e262e/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-storage:20.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/f82f82a6004202554ada48ec688e262e/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+191            <meta-data
+191-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/9f6b4971df50d7e673b4cfd97b841443/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+192                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+192-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/9f6b4971df50d7e673b4cfd97b841443/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/9f6b4971df50d7e673b4cfd97b841443/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-installations:17.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/af9a04c311ad76b3e1c1e3c6b85c6ddd/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+195                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+195-->[com.google.firebase:firebase-installations:17.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/af9a04c311ad76b3e1c1e3c6b85c6ddd/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-installations:17.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/af9a04c311ad76b3e1c1e3c6b85c6ddd/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+197        </service>
+198
+199        <provider
+199-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+200            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+200-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+201            android:authorities="com.rekr.reactnativefirebaseappinitprovider"
+201-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+202            android:exported="false"
+202-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+203            android:initOrder="99" />
+203-->[:react-native-firebase_app] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+204        <provider
+204-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+205            android:name="com.imagepicker.ImagePickerProvider"
+205-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+206            android:authorities="com.rekr.imagepickerprovider"
+206-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+207            android:exported="false"
+207-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+208            android:grantUriPermissions="true" >
+208-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+209            <meta-data
+209-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+210                android:name="android.support.FILE_PROVIDER_PATHS"
+210-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+211                android:resource="@xml/imagepicker_provider_paths" />
+211-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+212        </provider>
+213        <provider
+213-->[:react-native-webview] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+214            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+214-->[:react-native-webview] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+215            android:authorities="com.rekr.fileprovider"
+215-->[:react-native-webview] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+216            android:exported="false"
+216-->[:react-native-webview] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+217            android:grantUriPermissions="true" >
+217-->[:react-native-webview] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+218            <meta-data
+218-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+219                android:name="android.support.FILE_PROVIDER_PATHS"
+219-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+220                android:resource="@xml/file_provider_paths" />
+220-->[:react-native-image-picker] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+221        </provider>
+222
+223        <activity android:name="com.facebook.CustomTabMainActivity" />
+223-->[com.facebook.android:facebook-common:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8e95e5791866afa81110f11de775d9ff/transformed/jetified-facebook-common-15.0.1/AndroidManifest.xml:38:9-71
+223-->[com.facebook.android:facebook-common:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/8e95e5791866afa81110f11de775d9ff/transformed/jetified-facebook-common-15.0.1/AndroidManifest.xml:38:19-68
+224        <activity
+224-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:17:9-19:57
+225            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+225-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:18:13-76
+226            android:theme="@style/StripeDefaultTheme" />
+226-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:19:13-54
+227        <activity
+227-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:20:9-22:57
+228            android:name="com.stripe.android.view.PaymentMethodsActivity"
+228-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:21:13-74
+229            android:theme="@style/StripeDefaultTheme" />
+229-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:22:13-54
+230        <activity
+230-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:23:9-25:57
+231            android:name="com.stripe.android.view.PaymentFlowActivity"
+231-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:24:13-71
+232            android:theme="@style/StripeDefaultTheme" />
+232-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:25:13-54
+233        <activity
+233-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:26:9-29:58
+234            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+234-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:27:13-78
+235            android:theme="@style/StripeDefaultTheme"
+235-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:28:13-54
+236            android:windowSoftInputMode="adjustResize" />
+236-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:29:13-55
+237        <activity
+237-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:30:9-32:61
+238            android:name="com.stripe.android.view.PaymentRelayActivity"
+238-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:31:13-72
+239            android:theme="@style/StripeTransparentTheme" />
+239-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:32:13-58
+240        <!--
+241        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+242        launched the browser Activity will also handle the return URL deep link.
+243        -->
+244        <activity
+244-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:38:9-54:20
+245            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+245-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:39:13-85
+246            android:launchMode="singleTop"
+246-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:40:13-43
+247            android:theme="@style/StripeTransparentTheme" >
+247-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:41:13-58
+248            <intent-filter>
+248-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:42:13-53:29
+249                <action android:name="android.intent.action.VIEW" />
+249-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:13-65
+249-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:21-62
+250
+251                <category android:name="android.intent.category.DEFAULT" />
+251-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:13-72
+251-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:23-69
+252                <category android:name="android.intent.category.BROWSABLE" />
+252-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:13-74
+252-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:23-71
+253
+254                <!-- Must match `DefaultReturnUrl#value`. -->
+255                <data
+255-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:13-71
+256                    android:host="payment_return_url"
+257                    android:path="/com.rekr"
+258                    android:scheme="stripesdk" />
+258-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:19-68
+259            </intent-filter>
+260        </activity>
+261        <activity
+261-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:55:9-57:57
+262            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+262-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:56:13-80
+263            android:theme="@style/StripeDefaultTheme" />
+263-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:57:13-54
+264        <activity
+264-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:58:9-60:69
+265            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+265-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:59:13-80
+266            android:theme="@style/StripePaymentSheetDefaultTheme" />
+266-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:60:13-66
+267        <activity
+267-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:61:9-63:69
+268            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+268-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:62:13-82
+269            android:theme="@style/StripePaymentSheetDefaultTheme" />
+269-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:63:13-66
+270        <activity
+270-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:64:9-66:66
+271            android:name="com.stripe.android.googlepay.StripeGooglePayActivity"
+271-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:65:13-80
+272            android:theme="@style/StripeGooglePayDefaultTheme" />
+272-->[com.stripe:payments-core:16.10.0] /Users/basilfawwad/.gradle/caches/transforms-3/db8f19faacffd34c2cfce769786eeccd/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:66:13-63
+273        <activity
+273-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/basilfawwad/.gradle/caches/transforms-3/ecfc14335494ff5e9ff7a4228d52e363/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:10:9-12:54
+274            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+274-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/basilfawwad/.gradle/caches/transforms-3/ecfc14335494ff5e9ff7a4228d52e363/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:11:13-81
+275            android:theme="@style/Stripe3DS2Theme" />
+275-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/basilfawwad/.gradle/caches/transforms-3/ecfc14335494ff5e9ff7a4228d52e363/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:12:13-51
+276        <activity
+276-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/basilfawwad/.gradle/caches/transforms-3/ecfc14335494ff5e9ff7a4228d52e363/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:13:9-15:54
+277            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+277-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/basilfawwad/.gradle/caches/transforms-3/ecfc14335494ff5e9ff7a4228d52e363/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:14:13-89
+278            android:theme="@style/Stripe3DS2Theme" />
+278-->[com.stripe:stripe-3ds2-android:5.3.1] /Users/basilfawwad/.gradle/caches/transforms-3/ecfc14335494ff5e9ff7a4228d52e363/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:15:13-51
+279
+280        <receiver
+280-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
+281            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+281-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
+282            android:exported="true"
+282-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
+283            android:permission="com.google.android.c2dm.permission.SEND" >
+283-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
+284            <intent-filter>
+284-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+285                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+285-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+285-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+286            </intent-filter>
+287        </receiver>
+288        <!--
+289             FirebaseMessagingService performs security checks at runtime,
+290             but set to not exported to explicitly avoid allowing another app to call it.
+291        -->
+292        <service
+292-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
+293            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+293-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
+294            android:directBootAware="true"
+294-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
+295            android:exported="false" >
+295-->[com.google.firebase:firebase-messaging:23.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/c3ac3f48ea1483c99569c140baf95ea5/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
+296            <intent-filter android:priority="-500" >
+296-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+297                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+297-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+297-->[:react-native-firebase_messaging] /Users/basilfawwad/Documents/GitHub/Rekr/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+298            </intent-filter>
+299        </service>
+300        <service
+300-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/a7e3d306cac68218f51d149f257aa714/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+301            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+301-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/a7e3d306cac68218f51d149f257aa714/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+302            android:exported="false" >
+302-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/a7e3d306cac68218f51d149f257aa714/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+303            <meta-data
+303-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/a7e3d306cac68218f51d149f257aa714/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+304                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+304-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/a7e3d306cac68218f51d149f257aa714/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+305                android:value="cct" />
+305-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/a7e3d306cac68218f51d149f257aa714/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+306        </service>
+307        <service
+307-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/66a6b23460f482582845da8039e42633/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+308            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+308-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/66a6b23460f482582845da8039e42633/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+309            android:exported="false"
+309-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/66a6b23460f482582845da8039e42633/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+310            android:permission="android.permission.BIND_JOB_SERVICE" >
+310-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/66a6b23460f482582845da8039e42633/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+311        </service>
+312
+313        <receiver
+313-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/66a6b23460f482582845da8039e42633/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+314            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+314-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/66a6b23460f482582845da8039e42633/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+315            android:exported="false" />
+315-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/basilfawwad/.gradle/caches/transforms-3/66a6b23460f482582845da8039e42633/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+316
+317        <activity
+317-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+318            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+318-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+319            android:excludeFromRecents="true"
+319-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+320            android:exported="true"
+320-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+321            android:launchMode="singleTask"
+321-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+322            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+322-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+323            <intent-filter>
+323-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+324                <action android:name="android.intent.action.VIEW" />
+324-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:13-65
+324-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:21-62
+325
+326                <category android:name="android.intent.category.DEFAULT" />
+326-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:13-72
+326-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:23-69
+327                <category android:name="android.intent.category.BROWSABLE" />
+327-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:13-74
+327-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:23-71
+328
+329                <data
+329-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:13-71
+330                    android:host="firebase.auth"
+331                    android:path="/"
+332                    android:scheme="genericidp" />
+332-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:19-68
+333            </intent-filter>
+334        </activity>
+335        <activity
+335-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+336            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+336-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+337            android:excludeFromRecents="true"
+337-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+338            android:exported="true"
+338-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+339            android:launchMode="singleTask"
+339-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+340            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+340-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+341            <intent-filter>
+341-->[com.google.firebase:firebase-auth:21.0.6] /Users/basilfawwad/.gradle/caches/transforms-3/40666976b15fb86d2f16ffd8c8a36a17/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+342                <action android:name="android.intent.action.VIEW" />
+342-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:13-65
+342-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:44:21-62
+343
+344                <category android:name="android.intent.category.DEFAULT" />
+344-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:13-72
+344-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:45:23-69
+345                <category android:name="android.intent.category.BROWSABLE" />
+345-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:13-74
+345-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:46:23-71
+346
+347                <data
+347-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:13-71
+348                    android:host="firebase.auth"
+349                    android:path="/"
+350                    android:scheme="recaptcha" />
+350-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:47:19-68
+351            </intent-filter>
+352        </activity>
+353
+354        <provider
+354-->[com.google.firebase:firebase-common:20.1.1] /Users/basilfawwad/.gradle/caches/transforms-3/f2404e28b09fda680b26eb543d342eac/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+355            android:name="com.google.firebase.provider.FirebaseInitProvider"
+355-->[com.google.firebase:firebase-common:20.1.1] /Users/basilfawwad/.gradle/caches/transforms-3/f2404e28b09fda680b26eb543d342eac/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+356            android:authorities="com.rekr.firebaseinitprovider"
+356-->[com.google.firebase:firebase-common:20.1.1] /Users/basilfawwad/.gradle/caches/transforms-3/f2404e28b09fda680b26eb543d342eac/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+357            android:directBootAware="true"
+357-->[com.google.firebase:firebase-common:20.1.1] /Users/basilfawwad/.gradle/caches/transforms-3/f2404e28b09fda680b26eb543d342eac/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+358            android:exported="false"
+358-->[com.google.firebase:firebase-common:20.1.1] /Users/basilfawwad/.gradle/caches/transforms-3/f2404e28b09fda680b26eb543d342eac/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+359            android:initOrder="100" />
+359-->[com.google.firebase:firebase-common:20.1.1] /Users/basilfawwad/.gradle/caches/transforms-3/f2404e28b09fda680b26eb543d342eac/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+360        <provider
+360-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+361            android:name="androidx.work.impl.WorkManagerInitializer"
+361-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+362            android:authorities="com.rekr.workmanager-init"
+362-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+363            android:directBootAware="false"
+363-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+364            android:exported="false"
+364-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+365            android:multiprocess="true" />
+365-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+366
+367        <service
+367-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+368            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+368-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+369            android:directBootAware="false"
+369-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+370            android:enabled="@bool/enable_system_alarm_service_default"
+370-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+371            android:exported="false" />
+371-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+372        <service
+372-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+373            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+373-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+374            android:directBootAware="false"
+374-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+375            android:enabled="@bool/enable_system_job_service_default"
+375-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+376            android:exported="true"
+376-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+377            android:permission="android.permission.BIND_JOB_SERVICE" />
+377-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+378        <service
+378-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+379            android:name="androidx.work.impl.foreground.SystemForegroundService"
+379-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+380            android:directBootAware="false"
+380-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+381            android:enabled="@bool/enable_system_foreground_service_default"
+381-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+382            android:exported="false" />
+382-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+383
+384        <receiver
+384-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+385            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+385-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+386            android:directBootAware="false"
+386-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+387            android:enabled="true"
+387-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+388            android:exported="false" />
+388-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+389        <receiver
+389-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+390            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+390-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+391            android:directBootAware="false"
+391-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+392            android:enabled="false"
+392-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+393            android:exported="false" >
+393-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+394            <intent-filter>
+394-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+395                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+395-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+395-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+396                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+396-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+396-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+397            </intent-filter>
+398        </receiver>
+399        <receiver
+399-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+400            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+400-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+401            android:directBootAware="false"
+401-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+402            android:enabled="false"
+402-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+403            android:exported="false" >
+403-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+404            <intent-filter>
+404-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+405                <action android:name="android.intent.action.BATTERY_OKAY" />
+405-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+405-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+406                <action android:name="android.intent.action.BATTERY_LOW" />
+406-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+406-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+407            </intent-filter>
+408        </receiver>
+409        <receiver
+409-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+410            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+410-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+411            android:directBootAware="false"
+411-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+412            android:enabled="false"
+412-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+413            android:exported="false" >
+413-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+414            <intent-filter>
+414-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+415                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+415-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+415-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+416                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+416-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+416-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+417            </intent-filter>
+418        </receiver>
+419        <receiver
+419-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+420            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+420-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+421            android:directBootAware="false"
+421-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+422            android:enabled="false"
+422-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+423            android:exported="false" >
+423-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+424            <intent-filter>
+424-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+425                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+425-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+425-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+426            </intent-filter>
+427        </receiver>
+428        <receiver
+428-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+429            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+429-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+430            android:directBootAware="false"
+430-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+431            android:enabled="false"
+431-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+432            android:exported="false" >
+432-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+433            <intent-filter>
+433-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+434                <action android:name="android.intent.action.BOOT_COMPLETED" />
+434-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+434-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+435                <action android:name="android.intent.action.TIME_SET" />
+435-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+435-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+436                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+436-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+436-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+437            </intent-filter>
+438        </receiver>
+439        <receiver
+439-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+440            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+440-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+441            android:directBootAware="false"
+441-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+442            android:enabled="@bool/enable_system_alarm_service_default"
+442-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+443            android:exported="false" >
+443-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+444            <intent-filter>
+444-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+445                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+445-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+445-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+446            </intent-filter>
+447        </receiver>
+448        <receiver
+448-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+449            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+449-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+450            android:directBootAware="false"
+450-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+451            android:enabled="true"
+451-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+452            android:exported="true"
+452-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+453            android:permission="android.permission.DUMP" >
+453-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+454            <intent-filter>
+454-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+455                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+455-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+455-->[androidx.work:work-runtime:2.5.0] /Users/basilfawwad/.gradle/caches/transforms-3/82e41c737da2c09d5ef0276a6320a6ab/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+456            </intent-filter>
+457        </receiver>
+458
+459        <service
+459-->[androidx.room:room-runtime:2.2.5] /Users/basilfawwad/.gradle/caches/transforms-3/900432cacb3117cbb9d3a9ecf2179d1b/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+460            android:name="androidx.room.MultiInstanceInvalidationService"
+460-->[androidx.room:room-runtime:2.2.5] /Users/basilfawwad/.gradle/caches/transforms-3/900432cacb3117cbb9d3a9ecf2179d1b/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+461            android:directBootAware="true"
+461-->[androidx.room:room-runtime:2.2.5] /Users/basilfawwad/.gradle/caches/transforms-3/900432cacb3117cbb9d3a9ecf2179d1b/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+462            android:exported="false" />
+462-->[androidx.room:room-runtime:2.2.5] /Users/basilfawwad/.gradle/caches/transforms-3/900432cacb3117cbb9d3a9ecf2179d1b/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+463        <!--
+464         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+465         with the application context. This config is merged in with the host app's manifest,
+466         but there can only be one provider with the same authority activated at any given
+467         point; so if the end user has two or more different apps that use Facebook SDK, only the
+468         first one will be able to use the provider. To work around this problem, we use the
+469         following placeholder in the authority to identify each host application as if it was
+470         a completely different provider.
+471        -->
+472        <provider
+472-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:41:9-44:40
+473            android:name="com.facebook.internal.FacebookInitProvider"
+473-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:42:13-70
+474            android:authorities="com.rekr.FacebookInitProvider"
+474-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:43:13-72
+475            android:exported="false" />
+475-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:44:13-37
+476
+477        <receiver
+477-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:46:9-52:20
+478            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+478-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:47:13-86
+479            android:exported="false" >
+479-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:48:13-37
+480            <intent-filter>
+480-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:49:13-51:29
+481                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+481-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:50:17-95
+481-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:50:25-92
+482            </intent-filter>
+483        </receiver>
+484        <receiver
+484-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:53:9-59:20
+485            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+485-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:54:13-118
+486            android:exported="false" >
+486-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:55:13-37
+487            <intent-filter>
+487-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:56:13-58:29
+488                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+488-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:57:17-103
+488-->[com.facebook.android:facebook-core:15.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/4d90a27cf1316a6cc16be7562015a121/transformed/jetified-facebook-core-15.0.1/AndroidManifest.xml:57:25-100
+489            </intent-filter>
+490        </receiver>
+491
+492        <activity
+492-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+493            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+493-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+494            android:excludeFromRecents="true"
+494-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+495            android:exported="false"
+495-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+496            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+496-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+497        <!--
+498            Service handling Google Sign-In user revocation. For apps that do not integrate with
+499            Google Sign-In, this service will never be started.
+500        -->
+501        <service
+501-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+502            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+502-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+503            android:exported="true"
+503-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+504            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+504-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+505            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+505-->[com.google.android.gms:play-services-auth:20.2.0] /Users/basilfawwad/.gradle/caches/transforms-3/1f1945c64c3ada0c49383a50b87d0742/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+506        <uses-library
+506-->[com.google.android.gms:play-services-maps:17.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/e9e8c6aa9eadc6171ff4aa54c0400256/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+507            android:name="org.apache.http.legacy"
+507-->[com.google.android.gms:play-services-maps:17.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/e9e8c6aa9eadc6171ff4aa54c0400256/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+508            android:required="false" />
+508-->[com.google.android.gms:play-services-maps:17.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/e9e8c6aa9eadc6171ff4aa54c0400256/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+509
+510        <activity
+510-->[com.google.android.gms:play-services-base:18.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/493a5b32eb8a4a7bb025ee227b7212c1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+511            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+511-->[com.google.android.gms:play-services-base:18.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/493a5b32eb8a4a7bb025ee227b7212c1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+512            android:exported="false"
+512-->[com.google.android.gms:play-services-base:18.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/493a5b32eb8a4a7bb025ee227b7212c1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+513            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+513-->[com.google.android.gms:play-services-base:18.0.1] /Users/basilfawwad/.gradle/caches/transforms-3/493a5b32eb8a4a7bb025ee227b7212c1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+514
+515        <receiver
+515-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+516            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+516-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+517            android:enabled="true"
+517-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+518            android:exported="false" >
+518-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+519        </receiver>
+520
+521        <service
+521-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+522            android:name="com.google.android.gms.measurement.AppMeasurementService"
+522-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+523            android:enabled="true"
+523-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+524            android:exported="false" />
+524-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+525        <service
+525-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+526            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+526-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+527            android:enabled="true"
+527-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+528            android:exported="false"
+528-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+529            android:permission="android.permission.BIND_JOB_SERVICE" />
+529-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/05319f991df774f3c54929c1e92d50fd/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+530
+531        <meta-data
+531-->[com.google.android.gms:play-services-basement:18.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/4916ac5b76716ffc0958ee8e642cb56d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+532            android:name="com.google.android.gms.version"
+532-->[com.google.android.gms:play-services-basement:18.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/4916ac5b76716ffc0958ee8e642cb56d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+533            android:value="@integer/google_play_services_version" />
+533-->[com.google.android.gms:play-services-basement:18.0.0] /Users/basilfawwad/.gradle/caches/transforms-3/4916ac5b76716ffc0958ee8e642cb56d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+534
+535        <activity
+535-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+536            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+536-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+537            android:exported="true"
+537-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+538            android:theme="@android:style/Theme" >
+538-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+539            <intent-filter>
+539-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+540                <action android:name="android.intent.action.MAIN" />
+540-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:13-65
+540-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:21-62
+541            </intent-filter>
+542        </activity>
+543        <activity
+543-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+544            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+544-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+545            android:exported="true"
+545-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+546            android:theme="@android:style/Theme" >
+546-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+547            <intent-filter>
+547-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+548                <action android:name="android.intent.action.MAIN" />
+548-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:13-65
+548-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:21-62
+549            </intent-filter>
+550        </activity>
+551        <activity
+551-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+552            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+552-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+553            android:exported="true"
+553-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+554            android:theme="@android:style/Theme.Dialog" >
+554-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+555            <intent-filter>
+555-->[androidx.test:core:1.4.0] /Users/basilfawwad/.gradle/caches/transforms-3/2e4ce593d416bf77fac1e7d280915c21/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+556                <action android:name="android.intent.action.MAIN" />
+556-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:13-65
+556-->/Users/basilfawwad/Documents/GitHub/Rekr/android/app/src/main/AndroidManifest.xml:26:21-62
+557            </intent-filter>
+558        </activity>
+559    </application>
+560
+561</manifest>

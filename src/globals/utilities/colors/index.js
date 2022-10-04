@@ -1,0 +1,20 @@
+export const colors = {
+  black: '#000000',
+  white: '#ffffff',
+  offwhite: '#E5E5E5',
+  yellow: '#AFA01A',
+  grayBackground: '#E8E8E8',
+  grayText: '#3C3C43',
+  lightText: '#9F9F9F',
+  darkgrayBackground: '#3C3C4399',
+  placeholder: '#B2B2B2B8',
+  grayBorder: '#707070',
+  darkGray: '#C4C4C4',
+  green: '#0B7B07',
+  lightGreen: '#11A90B',
+  lightGrayBackground: '#EAECEE',
+  blue: '#039BE5',
+  darkLabel: '#3A3C3F',
+  halfWhite: '#F7F6F2',
+};
+//   every color should be given proper name
